@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book an appointment</title>
+    <%- include('partials/nav') %>
+</head>
+<body>
+
+<!-- for each instructor, show available slots -->
+
+<!-- Modal 
+Teacher
+Ratings
+Available Slots
+Submit -->
+
+
+<!-- For each teacher, show their profile here -->
+
+
+<!-- image, 
+title, 
+ratings,
+book an appointment-->
+<style>
+
+.resize {
+    width: 200px;
+    height: auto;
+}
+</style>
+
+<!-- for each instructor, show this -->
+<!-- Show some border -->
+<div class="mx-auto" style="width: 200px;">
+    <h1 class= "display-3">
+        Instructors
+       </h1>
+  </div>
+
+
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+
+  <div class="card" style="width: 15rem;">
+    <img src="./images/instructor-1.jpg" class="card-img-top" alt="">
+    <div class="card-body">
+      <h5 class="card-title">Bob Lob</h5>
+      <h3>Ratings: </h2>    <!-- instructor.rating-->
+        <button class="btn btn-primary bookAppointment">Book an appointment</button>  <!--class = bookAppointmentNAME displays all available slots-->
+    </div>
+  </div>
+
+  </div>
+  </div>
+
+
+<!-- For now, we will do one slot -->
+
+<!-- <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Ratings</th>
+        <th scope="col">Slots available</th>             popup modal , show available slots , select -->
+        <!-- <th scope="col"> Book an appointment</th>
+        </th>
+
+      </tr>
+    </thead>
+    <tbody> -->
+        <!-- for each instructor, add  this. -->
+      <!-- <tr>
+        <td>Mark</td>
+        <td>5 stars</td>
+        <td>View</td>
+        <td>      <button class= "btn btn-primary">Book an appointment!</button>
+        </td>
+      </tr>
+      
+    </tbody>
+  </table>  -->
+
+    <!-- Show table of available slots -->
+        <!-- Slots are 45 minutes or 90 minutes -->
+
+    <!-- | Instructor |  Time available | Submit -->
+    <!-- | Aditya, Kumar |   xxx | Submit-->
+
+    
+    <%- include('partials/scripts') %>
+
+</body>
+<%- include('partials/footer') %>
+
+</html>
